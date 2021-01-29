@@ -1,6 +1,6 @@
 # Maths Game Project
 
-* This project is a simple Maths Game for children, so that they can learn basic Math operations while having fun.
+* This project is a simple single-page Maths Game for children, so that they can learn basic Math operations while having fun.
 * It's made for educational purpose.
 * Languages used: Javascript, HTML, CSS.
 * The repo contains two folders:

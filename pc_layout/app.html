@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Math is Fun! </title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+        <link rel="stylesheet" href="style.css">
+        <script src="dynamic.js"></script>
+    </head>
+
+    <body>
+
+
+
+        <div id="select-page">
+            <h1>Welcome <br> Choose your game!</h1>
+            <button class="operation" data-test="+">Addition</button>
+            <button class="operation" data-test="*">Multiplication</button>
+            <button class="operation" data-test="-">Subtraction</button>
+            <button class="operation" data-test="/"> (Euclidean) Division</button>
+            <button id="home">Home</button>
+        </div>
+
+        <div id="menu-page" >
+            <h1>Welcome to <br> ADD<sub>icted</sub></h1>
+            <button class="menu-button" data-goal="play">Play</button>
+            <button class="menu-button" data-goal="highscores">Your Highscores</button>
+            <button class="menu-button" data-goal="about-us">About us</button>
+        </div>
+
+        <div id="problem-page">
+            <h1 id=hurry style="margin:1%;"></h1>
+            <h1 id="good_message" style="margin:1%";></h1>
+            <h1 id="bad_message" style="margin:1%;"></h1>
+            <div id="good_question" style="margin:1%;"></div>
+            <div id="bad_question" style="margin:1%;"></div>
+            <div>
+                <form id="answer-form">
+                        <div>
+                            <input id="ans-input" autofocus name="answer" placeholder="??" type="number">
+                        </div>
+                        <div>
+                            <input id="ans-submit" type="submit" value="Submit Here/Press Enter" style="margin:1%">  
+                        </div>
+                </form>
+            </div>
+            <div id="score"></div>
+            
+                <button id="home">Home</button>
+            
+            
+        </div>
+
+        <div id="winner-page">
+            <h1 id="winner-message"> Congratulations, you made it !!</h1>
+            <h1 id="save-question">Want to save your score?</h1>
+            <button id="save-score">Yes</button>
+            <button id="playAgain">I want to play again!</button>
+            <button id="home">Home</button>
+        </div>
+
+        <div id="score-page">
+            <h1 style="margin-bottom:1%">HIGHSCORES</h1>
+            <div id="score-save">
+                <h2 style="margin-top:1%">Save your score here!</h2>
+                <div>
+                    <form id="score-form">
+                        <div>
+                            <input id="nickname" autofocus name="nickname" placeholder="Nickname..." type="text" maxlength="8">
+                        </div>
+                        <h2 id="score-revision" style="margin-bottom:1%"></h2>
+                        
+                            <input id="score-submit" type="submit" value="Save !">
+                        
+                    </form>
+                </div>
+            </div>
+
+            <table id="scoresheet">
+            </table>
+            <button id="home">Home</button>
+        </div>
+
+        <div id="about-page">
+            <h1>ABOUT US</h1>
+            <div>Hello and thank you for supporting me!<br>
+                 I am John Athanasiou,<br>the developer of this app.<br>
+                The aim of this app is to help kids learn the basic maths operations, while having fun!<br>
+                Lots of new useful and playful apps<br>are coming soon!<br>
+                Thank you and...<br> 
+                <p style="font-weight: bold; font-size:large;">Stay Tuned !!</p>
+            </div>
+            <button id="home">Home</button>
+        </div>
+
+        
+
+    </body>
+
+</html>

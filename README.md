@@ -4,6 +4,7 @@
 * It's made for educational purpose.
 * Languages used: Javascript, HTML, CSS.
 * The appearance of the context of the <i>pc_layout</i> folder fits better in a pc screen.
+* Try it at https://john-atha.github.io/MathsGame-Project/.
 - - -
 * Developer: Giannis Athanasiou
 * GitHub Username: John-Atha

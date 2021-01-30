@@ -79,6 +79,10 @@
     }
 }
 
+body {
+    height: 100%;
+    justify-content: center;
+}
 
 #select-page, #problem-page, #winner-page, #menu-page, #score-page, #about-page {
     width: 70%;
@@ -95,7 +99,12 @@
     animation-fill-mode: forwards;
     position: relative, center;
     padding-bottom: 10%;
-    height: 70vh;
+    height: 70%;
+}
+
+#score-page {
+    height: 100%;
+
 }
 
 .menu-button {
@@ -181,7 +190,7 @@ button, #ans-submit, #score-submit {
     background-color: rgba(0, 51, 255, 0.619);
     margin: 5%;
     width: 30%;
-    height: 30%;
+    height: min-content;
     margin-left:35%; 
     margin-right:35%; 
     padding: 1%;
@@ -228,24 +237,24 @@ div {
     margin-left:25%;
 }
 
-#scoresheet, td {
+#scoresheet {
     border: none;
     background-color: #FFBA37;
 }
 
+
 #scoresheet {
-    width: 50%;
+    width: 60%;
     position: relative;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
     border: solid 2px rgb(6, 6, 125);
     border-radius:10px;
 }
 
-tbody {
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
+td {
+    width: 10%;
+    position: center;
 }
 

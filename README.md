@@ -4,7 +4,7 @@
 * It's made for educational purpose.
 * Languages used: Javascript, HTML, CSS.
 * The appearance of the content of the project fits better in a pc screen.
-* Try it at https://john-atha.github.io/MathsGame-Project/.
+* Try it at https://john-atha.github.io/MathsGame-PC-Edition/.
 - - -
 * Developer: Giannis Athanasiou
 * GitHub Username: John-Atha
